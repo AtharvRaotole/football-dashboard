@@ -1,6 +1,3 @@
-# football-dashboard
-
-
 # ⚽ Football Data Dashboard
 
 An interactive and data-driven web application that provides insights into football competition standings and top scorers. Built using Python, Streamlit, and Matplotlib, this dashboard allows users to explore key football statistics interactively.
@@ -57,44 +54,54 @@ This project fetches real-time football data from the **Football-Data.org API** 
 ```bash
 git clone https://github.com/your-username/football-dashboard.git
 cd football-dashboard
+```
 
 2️⃣ Install Dependencies
-
 Make sure you have Python installed. Then, run:
 
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 3️⃣ Fetch Data
-
 Run the data-fetching script to save the latest football data:
 
-    python fetch_football_data.py
+```bash
+python fetch_football_data.py
+```
 
 This will generate two CSV files:
-	•	standings_data.csv
-	•	scorers_data.csv
+standings_data.csv
+scorers_data.csv
 
 4️⃣ Run the Dashboard
-
 Start the Streamlit app:
 
-    streamlit run football_dashboard.py
+```bash
+streamlit run football_dashboard.py
+```
 
 5️⃣ Open in Your Browser
-
 The app will open in your default browser at:
 
-    http://localhost:8501
+```arduino
+http://localhost:8501
+```
 
-🌐 Deployment on Streamlit Cloud
+---
+
+## 🌐 **Deployment on Streamlit Cloud**
 
 To make the app publicly accessible:
-	1.	Push your project to GitHub.
-	2.	Go to Streamlit Community Cloud.
-	3.	Connect your repository and deploy.
 
-📂 Project Structure
+1. Push your project to GitHub.
+2. Go to [Streamlit Community Cloud](https://streamlit.io/cloud).
+3. Connect your repository and deploy.
 
+---
+
+## 📂 **Project Structure**
+```bash
 football-dashboard/
 │
 ├── fetch_football_data.py   # Fetches data from the API
@@ -103,40 +110,50 @@ football-dashboard/
 ├── scorers_data.csv         # Scorers dataset (auto-generated)
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
+```
 
-🧠 How It Works
-	1.	Data Fetching:
-	•	API calls fetch competition standings and top scorers.
-	•	Data is saved locally in CSV files.
-	2.	Data Visualization:
-	•	Matplotlib creates charts for team and player performance.
-	3.	Interactive Dashboard:
-	•	Streamlit dynamically displays charts and tables.
+---
 
-✅ Future Enhancements
-	•	Add more detailed player analytics.
-	•	Introduce filters for competitions and teams.
-	•	Include historical data comparisons.
+## 🧠 **How It Works**
 
-🧑‍💻 Contributing
+### Data Fetching:
+- API calls fetch competition standings and top scorers.
+- Data is saved locally in CSV files.
 
+### Data Visualization:
+- Matplotlib creates charts for team and player performance.
 
+### Interactive Dashboard:
+- Streamlit dynamically displays charts and tables.
 
-📄 License
+---
 
+## ✅ **Future Enhancements**
+- Add more detailed player analytics.
+- Introduce filters for competitions and teams.
+- Include historical data comparisons.
+
+---
+
+## 🧑‍💻 **Contributing**
+Feel free to fork this project, open issues, and submit pull requests for any contributions or improvements!
+
+---
+
+## 📄 **License**
 This project is licensed under the MIT License.
 
-📬 Contact
-	•	Name: Atharv Raotole
-	•	Email: atharva.r29@gmail.com
-	•	GitHub: AtharvRaotole
+---
+
+## 📬 **Contact**
+- **Name:** Atharv Raotole
+- **Email:** atharva.r29@gmail.com
+- **GitHub:** [AtharvRaotole](https://github.com/AtharvRaotole)
 
 Feel free to reach out with questions, feedback, or collaboration opportunities!
 
 ⭐ If You Like This Project, Give It a Star!
 
-⭐ Star this project on GitHub to support further development.
-
+---
 Happy Exploring! ⚽📊🎯
 
----
