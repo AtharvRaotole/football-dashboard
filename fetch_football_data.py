@@ -3,7 +3,7 @@ import pandas as pd  # type: ignore
 import matplotlib.pyplot as plt  # type: ignore
 
 # API Details
-api_key = "1c55c062efb843d09cf7d1c7942c924a"  # Replace with your actual API key
+api_key = "YOUR API KEY"  # Replace with your actual API key
 base_url = "https://api.football-data.org/v4"
 headers = {"X-Auth-Token": api_key}
 competition_id = 2001  # UEFA Champions League example
